@@ -1,0 +1,32 @@
+:root {
+  font-size: 35px;
+
+  --night-theme: black;
+  --day-theme: white;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: var(--day-theme);
+  color: var(--night-theme);
+}
+
+.dark-theme {
+  background-color: var(--night-theme);
+  color: var(--day-theme);
+}
+
+#change-theme-btn {
+  font: inherit;
+  padding: 0.1em 0.25em;
+  border: 0;
+  outline: 0;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+#counter {
+  font-size: 30px;
+}
